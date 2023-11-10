@@ -1,5 +1,5 @@
 train:
-	python3 mc_train.py
+	python3 src/mc_train.py
 
 generate:
-	python3 mc_generate.py $(prompt)
+	python3 src/mc_generate.py $(prompt)
